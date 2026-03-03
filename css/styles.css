@@ -21,30 +21,30 @@ DO NOT use CSS frameworks (Bootstrap, Tailwind, etc.)
    ============================================================ */
 :root {
     /* Colors - TODO: Customize your color palette */
-    --color-primary: /* Your primary color */;
-    --color-primary-dark: /* Darker shade */;
-    --color-secondary: /* Secondary color */;
-    --color-text: /* Main text color */;
-    --color-text-light: /* Lighter text */;
-    --color-background: /* Page background */;
-    --color-background-alt: /* Alternate background */;
-    --color-border: /* Border color */;
+    --color-primary:rgb(154, 201, 255) ;
+    --color-primary-dark:rgb(0, 0, 215) /* Darker shade */;
+    --color-secondary:rgb(255, 89, 6) /* Secondary color */;
+    --color-text:rgb(0, 0, 0)/* Main text color */;
+    --color-text-light:rgb(71, 71, 71) /* Lighter text */;
+    --color-background:rgb(0, 255, 110) /* Page background */;
+    --color-background-alt:rgb(255, 221, 0) /* Alternate background */;
+    --color-border:rgb(0, 0, 66) /* Border color */;
 
     /* Typography - TODO: Define your font sizes */
-    --font-family: /* Your font stack */;
-    --font-size-base: /* Base size, e.g., 16px */;
-    --font-size-sm: /* Small text */;
-    --font-size-lg: /* Large text */;
-    --font-size-xl: /* Extra large */;
-    --font-size-2xl: /* Headings */;
-    --font-size-3xl: /* Large headings */;
+    --font-family:Helvetica  /* Your font stack */;
+    --font-size-base:16px /* Base size, e.g., 16px */;
+    --font-size-sm:16px /* Small text */;
+    --font-size-lg:32px /* Large text */;
+    --font-size-xl:48px /* Extra large */;
+    --font-size-2xl:64px /* Headings */;
+    --font-size-3xl:80px /* Large headings */;
 
     /* Spacing - TODO: Define spacing scale */
-    --spacing-xs: /* Extra small */;
-    --spacing-sm: /* Small */;
-    --spacing-md: /* Medium */;
-    --spacing-lg: /* Large */;
-    --spacing-xl: /* Extra large */;
+    --spacing-xs:4px /* Extra small */;
+    --spacing-sm:8px /* Small */;
+    --spacing-md:12px /* Medium */;
+    --spacing-lg:16px /* Large */;
+    --spacing-xl:20px /* Extra large */;
 
     /* Layout */
     --max-width: /* Container max-width */;
