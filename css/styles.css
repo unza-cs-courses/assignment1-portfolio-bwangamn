@@ -21,7 +21,7 @@ DO NOT use CSS frameworks (Bootstrap, Tailwind, etc.)
    ============================================================ */
 :root {
     /* Colors - TODO: Customize your color palette */
-    --color-primary:rgb(154, 201, 255) ;
+    --color-primary:rgb(174, 211, 253) ;
     --color-primary-dark:rgb(0, 0, 215) /* Darker shade */;
     --color-secondary:rgb(72, 25, 51) /* Secondary color */;
     --color-text:rgb(0, 0, 0)/* Main text color */;
@@ -182,7 +182,7 @@ ul {
        Consider: position, background, padding, box-shadow, z-index */
     position:sticky;
     top:0;
-    background:white;
+    background:rgb(61, 61, 61);
     box-shadow:0 2px 5px rgba(0,0,0,0.1);
     z-index:1000;
 }
@@ -335,7 +335,7 @@ ul {
      * - background, border-radius, overflow
      * - box-shadow, transition
      */
-    background:rgb(37, 38, 35);
+    background:rgb(123, 34, 218);
     border-radius:var(--border-radius);
     overflow:hidden;
     box-shadow:0 4px 8px rgba(0,0,0,0.1);

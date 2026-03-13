@@ -127,22 +127,27 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** Bwanga Nyirenda
+**Student ID:** 2022081501
+**Design Theme:** Modern minimal portfolio with a dark background and contrasting accent colors to highlight sections and interactive elements.
+
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [ variables for colors, spacing, typography ] CSS Custom Properties
+- [ used in navigation bar, hero section alignment, project links, and footer layout ] Flexbox
+- [ used for the projects section to create responsive project cards ] CSS Grid
+- [ mobile-first responsive design ] Media Queries
+- [ button hover effects and project card hover animations ] Other: CSS Transitions
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+One challenge I faced was creating a responsive layout that worked properly across different screen sizes. Initially, the project cards and navigation elements did not align correctly on tablet and desktop views. I solved this problem by implementing a mobile-first design approach and then using media queries at 768px and 1024px breakpoints to adjust layouts using CSS Grid and Flexbox.
+
+Another challenge was maintaining a consistent spacing system across the website. To solve this, I used CSS custom properties to create a spacing scale that could be reused throughout the stylesheet. This made the layout more consistent and easier to maintain.
+
+I also improved accessibility by ensuring that all images include alt text and that all form inputs have associated labels.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+Fonts: System fonts (Helvetica, Arial, sans-serif)
 
 ---
 
